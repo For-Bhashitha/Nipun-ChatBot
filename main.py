@@ -41,7 +41,7 @@ async def start(bot, update):
     await update.reply_photo(
         PM_START_IMG,
         caption=PM_START_TEXT,
-        reply_markup=InlineKeyboardMarkup(buttons),
+        reply_markup=(START_BUTTON),
         parse_mode=ParseMode.MARKDOWN,
         quote=True
 )
