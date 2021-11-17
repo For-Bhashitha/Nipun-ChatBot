@@ -42,7 +42,6 @@ async def start(bot, update):
         PM_START_IMG,
         caption=PM_START_TEXT,
         reply_markup=(START_BUTTON),
-        parse_mode=ParseMode.MARKDOWN,
         quote=True
 )
     
