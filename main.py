@@ -39,7 +39,7 @@ START_BUTTON = InlineKeyboardMarkup(
 @KINGAMDA.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
     await update.reply_photo(
-        START_IMG,
+        PM_START_IMG,
         caption=PM_START_TEXT,
         reply_markup=InlineKeyboardMarkup(buttons),
         parse_mode=ParseMode.MARKDOWN,
