@@ -23,6 +23,12 @@ I Aᴍ Nɪᴘᴜɴs's Mᴀɴᴀɢᴇʀ Bᴏᴛ..
 Yᴏᴜ Cᴀɴ Cᴏɴᴛᴀᴄᴛ Nɪᴘᴜɴ Oɴ Tʜɪs Bᴏᴛ..
 """
 
+
+
+IF_TEXT = "<b>Message from:</b> {}\n<b>Name:</b> {}\n\n{}"
+IF_CONTENT = "<b>Message from:</b> {} \n<b>Name:</b> {}"
+
+
 START_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴍ ❤️',url='https://t.me/NiupunDinujaya'),
