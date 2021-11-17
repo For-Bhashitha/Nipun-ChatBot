@@ -25,8 +25,9 @@ Yᴏᴜ Cᴀɴ Cᴏɴᴛᴀᴄᴛ Nɪᴘᴜɴ Oɴ Tʜɪs Bᴏᴛ..
 START_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴍ ❤️',url='https://t.me/NiupunDinujaya'),
-        InlineKeyboardButton('WʜᴀᴛsAᴘᴘ🧡',url='Comming Soon')
-        InlineKeyboardButton('Tᴡɪᴛᴛᴇʀ🖤',url='https://twitter.com/Amda3King')      ],
+        InlineKeyboardButton('WʜᴀᴛsAᴘᴘ🧡',url='Comming Soon'),
+        InlineKeyboardButton('Tᴡɪᴛᴛᴇʀ🖤',url='https://twitter.com/Amda3King') 
+        ],
         [
         InlineKeyboardButton('Gɪᴛʜᴜʙ 💚',url='https://github.com/Nipun-Manager'),
         InlineKeyboardButton('WᴇʙSɪᴛᴇ 💙',url='Comming Soon'),
