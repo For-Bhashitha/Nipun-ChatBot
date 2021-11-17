@@ -21,6 +21,7 @@ PM_START_TEXT = """
 Hᴇʏ Sɪʀ ! 
 I Aᴍ Nɪᴘᴜɴs's Mᴀɴᴀɢᴇʀ Bᴏᴛ.. 
 Yᴏᴜ Cᴀɴ Cᴏɴᴛᴀᴄᴛ Nɪᴘᴜɴ Oɴ Tʜɪs Bᴏᴛ..
+Mʏ Mᴀsᴛᴇʀ Wɪʟʟ Rᴇᴘʟʏ Wɪᴛʜɪɴ 5 Hᴏᴜʀs Tᴏ Tᴇʟʟ Mᴇ Wʜᴀᴛ I Wᴀɴᴛ Tᴏ Tᴇʟʟ Mʏ Mᴀsᴛᴇʀ !
 """
 
 
@@ -37,7 +38,11 @@ START_BUTTON = InlineKeyboardMarkup(
         ],
         [
         InlineKeyboardButton('Gɪᴛʜᴜʙ 💚',url='https://github.com/Nipun-Manager'),
-        InlineKeyboardButton('WᴇʙSɪᴛᴇ 💙',url='https://github.com/Nipun-Manager'),
+        InlineKeyboardButton('WᴇʙSɪᴛᴇ 💙',url='https://github.com/Nipun-Manager')
+        ],
+        [
+        InlineKeyboardButton('Iɴғᴏ Cʜᴀɴɴᴇʟ 💚',url='https://t.me/NiupunInfo'),
+        InlineKeyboardButton('Iɴғᴏ Cʜᴀᴛ 💙',url='https://t.me/NiupunInfoChat')
         ],
         [InlineKeyboardButton('Cʀᴇᴅɪᴛs 💕', url='https://t.me/MrItzme')
         ]]
