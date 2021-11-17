@@ -14,9 +14,9 @@ KINGAMDA = Client(
     api_hash = os.environ["API_HASH"]
 )
 
-START_IMG = "https://telegra.ph/file/adf7012cd758c00642bd1.jpg"
+PM_START_IMG = "https://telegra.ph/file/adf7012cd758c00642bd1.jpg"
 
-START_TEXT = """
+PM_START_TEXT = """
 Hᴇʏ Sɪʀ ! 
 I Aᴍ Nɪᴘᴜɴs's Mᴀɴᴀɢᴇʀ Bᴏᴛ.. 
 Yᴏᴜ Cᴀɴ Cᴏɴᴛᴀᴄᴛ Nɪᴘᴜɴ Oɴ Tʜɪs Bᴏᴛ..
@@ -25,12 +25,12 @@ Yᴏᴜ Cᴀɴ Cᴏɴᴛᴀᴄᴛ Nɪᴘᴜɴ Oɴ Tʜɪs Bᴏᴛ..
 START_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴍ ❤️',url='https://t.me/NiupunDinujaya'),
-        InlineKeyboardButton('WʜᴀᴛsAᴘᴘ🧡',url='Comming Soon'),
+        InlineKeyboardButton('WʜᴀᴛsAᴘᴘ🧡',url='https:t.me/hi'),
         InlineKeyboardButton('Tᴡɪᴛᴛᴇʀ🖤',url='https://twitter.com/Amda3King') 
         ],
         [
         InlineKeyboardButton('Gɪᴛʜᴜʙ 💚',url='https://github.com/Nipun-Manager'),
-        InlineKeyboardButton('WᴇʙSɪᴛᴇ 💙',url='Comming Soon'),
+        InlineKeyboardButton('WᴇʙSɪᴛᴇ 💙',url='https://github.com/Nipun-Manager'),
         ],
         [InlineKeyboardButton('Cʀᴇᴅɪᴛs 💕', url='https://t.me/MrItzme')
         ]]
