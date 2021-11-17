@@ -25,7 +25,7 @@ Yᴏᴜ Cᴀɴ Cᴏɴᴛᴀᴄᴛ Nɪᴘᴜɴ Oɴ Tʜɪs Bᴏᴛ..
 START_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴍ ❤️',url='https://t.me/NiupunDinujaya'),
-        InlineKeyboardButton('WʜᴀᴛsAᴘᴘ🧡',url='https:t.me/hi'),
+        InlineKeyboardButton('WʜᴀᴛsAᴘᴘ🧡',url='https://whatsapp.com'),
         InlineKeyboardButton('Tᴡɪᴛᴛᴇʀ🖤',url='https://twitter.com/Amda3King') 
         ],
         [
