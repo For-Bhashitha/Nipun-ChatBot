@@ -15,13 +15,14 @@ KINGAMDA = Client(
     api_hash = os.environ["API_HASH"]
 )
 
-PM_START_IMG = "https://telegra.ph/file/adf7012cd758c00642bd1.jpg"
+PM_START_STICKER = "CAACAgEAAxkBAAEGuU5h3v5XAAFBZBNscH9lJfI8s5qmm5MAAsUBAAJKYnlFMGvOnsDF3wEjBA"
 
 PM_START_TEXT = """
-Hᴇʏ Sɪʀ ! 
-I Aᴍ Nɪᴘᴜɴs's Mᴀɴᴀɢᴇʀ Bᴏᴛ.. 
-Yᴏᴜ Cᴀɴ Cᴏɴᴛᴀᴄᴛ Nɪᴘᴜɴ Oɴ Tʜɪs Bᴏᴛ..
-Mʏ Mᴀsᴛᴇʀ Wɪʟʟ Rᴇᴘʟʏ Wɪᴛʜɪɴ 5 Hᴏᴜʀs Tᴏ Tᴇʟʟ Mᴇ Wʜᴀᴛ I Wᴀɴᴛ Tᴏ Tᴇʟʟ Mʏ Mᴀsᴛᴇʀ !
+ʜᴇʏ sɪʀ 
+ɪ ᴀᴍ ɴɪᴘᴜɴ's ᴀssɪsᴛᴀɴᴛ ʙᴏᴛ.. 
+ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ɴɪᴘᴜɴ ᴏɴ ᴛʜɪs ʙᴏᴛ..
+ᴍʏ ᴍᴀsᴛᴇʀ ᴡɪʟʟ ʀᴇᴘʟʏ ᴡɪᴛʜɪɴ 5 ʜᴏᴜʀs..  
+ᴛʜᴀɴᴋ ʏᴏᴜ ᴅᴇᴀʀ ꜰʀɪᴇɴᴅ 
 """
 
 
@@ -32,26 +33,23 @@ IF_CONTENT = "<b>Message from:</b> {} \n<b>Name:</b> {}"
 
 START_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴍ ❤️',url='https://t.me/NiupunDinujaya'),
-        InlineKeyboardButton('WʜᴀᴛsAᴘᴘ🧡',url='https://whatsapp.com'),
-        InlineKeyboardButton('Tᴡɪᴛᴛᴇʀ🖤',url='https://twitter.com/Amda3King') 
+        InlineKeyboardButton('ɪɴʙᴏx',url='https://t.me/NiupunDinujaya'),
+        InlineKeyboardButton('ɪɴʙᴏx',url='https://t.me/NipunDinujayaOffline'),
+        InlineKeyboardButton('ɪɴʙᴏx',url='https://t.me/MrImSantha')
         ],
         [
-        InlineKeyboardButton('Gɪᴛʜᴜʙ 💚',url='https://github.com/Nipun-Manager'),
-        InlineKeyboardButton('WᴇʙSɪᴛᴇ 💙',url='https://github.com/Nipun-Manager')
+        InlineKeyboardButton('ᴍᴏʀᴇ ᴀʙᴏᴜᴛ',url='https://t.me/AboutSantha/2'),
+        InlineKeyboardButton('ᴡᴇʙsɪᴛᴇ',url='https://telegra.ph/file/7d5ce36a275474f38c418.jpg')
         ],
         [
-        InlineKeyboardButton('Iɴғᴏ Cʜᴀɴɴᴇʟ 💚',url='https://t.me/NiupunInfo'),
-        InlineKeyboardButton('Iɴғᴏ Cʜᴀᴛ 💙',url='https://t.me/NiupunInfoChat')
-        ],
-        [InlineKeyboardButton('Cʀᴇᴅɪᴛs 💕', url='https://t.me/MrItzme')
+        InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ ➕',url='http://t.me/TheNiupunDinujaya_Bot?startgroup=true')
         ]]
 )
 
 @KINGAMDA.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
-    await update.reply_photo(
-        PM_START_IMG,
+    await update.reply_sticker(
+        PM_START_STICKER,
         caption=PM_START_TEXT,
         reply_markup=(START_BUTTON),
         quote=True
