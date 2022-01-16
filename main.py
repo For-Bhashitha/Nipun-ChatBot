@@ -48,9 +48,9 @@ START_BUTTON = InlineKeyboardMarkup(
 
 @KINGAMDA.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
-    await update.reply_sticker(
-        PM_START_STICKER,
-        caption=PM_START_TEXT,
+    await update.reply_sticker(PM_START_STICKER)
+    await update.reply_text(
+        PM_START_TEXT,
         reply_markup=(START_BUTTON),
         quote=True
 )
